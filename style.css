@@ -28,7 +28,8 @@
       ul, a
       {
           text-decoration: none;
-          display: inline-block;
+          text-transform: uppercase;
+          display: flex;
           color: white;
           font-size: 30px;
           font-weight: bold;
