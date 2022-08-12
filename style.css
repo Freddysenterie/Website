@@ -13,6 +13,7 @@ html {
     font-family: "Roboto", sans-serif;
   }
   
+
   .container1 {
     position: absolute;
     top: 50%;
@@ -21,9 +22,9 @@ html {
     list-style: none;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    text-align: center;
-    display: inline-block;
+
  }
+
 
   ul, a
   {
@@ -37,6 +38,29 @@ html {
       margin: 30px;
   }
 
+  @media (max-width:1170px){
+
+    .container1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        list-style: none;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+
+     }
+
+    ul, a
+    {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: green;
+        font-size: 30px;
+        font-weight: bold;
+        list-style: none;
+        margin: 30px;
+    }
 
 
-
+}
